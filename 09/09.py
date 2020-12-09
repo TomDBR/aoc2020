@@ -28,7 +28,7 @@ def find_contiguous_range(input_data, invalid_number):
         if range_sum == invalid_number and len(range_) > 1: # make sure range isn't JUST the invalid number
             return min(range_) + max(range_)
 
-invalid_number = find_invalid_number(data, 5)
+invalid_number = find_invalid_number(data, 25)
 
 print("P1: ", invalid_number)
 print("P2: ", find_contiguous_range(data, invalid_number))
