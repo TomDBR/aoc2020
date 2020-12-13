@@ -1,5 +1,4 @@
-#with open("./11.txt", 'r') as f:
-with open("/home/Tom/bigboy.txt", 'r') as f:
+with open("./11.txt", 'r') as f:
     data = f.read().splitlines()
 width, height = len(data[0]), len(data)
 data = ''.join(data)
